@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Score Smart - Class 10 Maths Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>📘 Score Smart - Class 10 Maths Quiz</h1>
+        <form id="loginForm">
+            <input type="text" placeholder="Username" required><br>
+            <input type="email" placeholder="Email" required><br>
+            <input type="password" placeholder="Password" required><br>
+            <button type="submit">Start Test</button>
+        </form>
+        <div id="quiz" style="display:none;">
+            <h2>Linear Equations - 15 MCQs</h2>
+            <div id="questions"></div>
+            <button onclick="submitQuiz()">Submit</button>
+        </div>
+        <div id="result" style="display:none;"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
